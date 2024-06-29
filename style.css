@@ -1,0 +1,191 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    /* height: 100%;
+    width: 100%; */
+    font-size: 16px;
+    background-color: rgba(243, 229, 216, 255);
+
+}
+
+.container {
+    width: 70%;
+    height: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #eee;
+    border: 1px solid #d9c7ab;
+    border-radius: 7px;
+    margin-bottom: 50px;
+}
+
+.background img {
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    opacity: 0.8;
+}
+
+.background img:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+nav>h1 {
+    text-indent: 8px;
+    padding: 20px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav>p {
+    padding: 0px 25px 3px 25px;
+    font-family: "Outfit", sans-serif;
+    color: #3b3b3b;
+}
+
+article {
+    padding: 20px;
+}
+
+article>.prep {
+    padding: 20px 2px 20px 30px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+article>.prep>.title {
+    color: purple;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 5px;
+}
+
+article>.prep>ul>li {
+    /* padding-left: 9px; */
+    padding: 10px 10px 10px 20px;
+    color: #3b3b3b;
+}
+
+article>.prep>ul>li>p {
+    display: inline-block;
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+
+}
+
+article>.ingredin>h1 {
+    color: #854f40;
+    padding: 10px 0px 10px 0px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+article>.ingredin {
+    padding: 25px 10px 10px 20px;
+
+}
+
+article>.ingredin>ul>li {
+    padding: 9px;
+    font-family: "Outfit", sans-serif;
+    color: #3b3b3b;
+}
+
+article>.steps {
+    padding: 25px 10px 10px 20px;
+}
+
+article>.steps>h1 {
+    color: #854f40;
+    padding: 10px 0px 10px 0px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+article>.steps>ul>li>p {
+    font-weight: bold;
+    display: inline-block;
+}
+
+article>.steps>ul>li {
+    padding: 9px;
+    font-family: "Outfit", sans-serif;
+}
+
+article>.neurition {
+    padding: 25px 10px 20px 20px;
+    font-family: "Outfit", sans-serif;
+}
+
+article>.neurition>h1 {
+    color: #854f40;
+    padding: 10px 0px 10px 0px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+article>.neurition>p {
+    padding-bottom: 10px;
+}
+
+article>.neurition>table {
+    width: 100%;
+    padding: 10px;
+    height: 150px;
+    color: #3b3b3b;
+}
+
+article>.neurition>table>tr {
+    padding: 50px;
+}
+
+.col2 {
+    color: #854f40;
+    font-weight: bold;
+}
+
+td {
+    border-bottom: 1px solid gray;
+}
+
+@media (max-width: 1440px) {
+
+    article,
+    nav,
+    header,
+    footer {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media all and(min-width:500px) {
+
+    article,
+    nav,
+    header,
+    footer {
+        width: 100%;
+        height: auto;
+    }
+}
